@@ -1,4 +1,14 @@
 # minilisp
+D:\clojuse>java clojure.main
+Clojure 1.7.0
+user=> (require '[minilisp.core])
+nil
+
+user=> (eval '3)
+3
+(eval '((fn [x](+ 1 x)) 2))
+
+
 
 A small Lisp interpreter in Clojure, see [SICP Distilled](http://www.sicpdistilled.com/section/4.1/) for an explanation of how it works and some exercises to complete.
 
@@ -13,10 +23,3 @@ your option) any later version.
 
 
 
-D:\clojuse>java clojure.main
-Clojure 1.7.0
-user=> (require '[minilisp.core])
-nil
-
-user=> (eval '3)
-3
