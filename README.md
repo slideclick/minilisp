@@ -10,3 +10,13 @@ Copyright © 2015 Tom Hall
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
+
+
+
+D:\clojuse>java clojure.main
+Clojure 1.7.0
+user=> (require '[minilisp.core])
+nil
+
+user=> (eval '3)
+3
